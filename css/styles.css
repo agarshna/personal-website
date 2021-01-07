@@ -1,0 +1,164 @@
+/* Favicons are the little icons next to the title of the website.
+They can be made using favicon.cc */
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  /*having multiple listed fonts is good for having fallbacks
+   in case the browser can't display your selected font*/
+}
+
+h1 {
+  color: #11698e;
+  font-size: 80px;
+  margin: 0;
+  font-family: "Sacramento", cursive;
+}
+
+h2.title {
+  color: #11698e;
+}
+
+h2 {
+  color: #fd3a69;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #fd3a69;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.top {
+  background-color: #e4f9f5;
+  padding-top: 120px;
+}
+
+.middle {
+  margin: 80px 0;
+}
+
+.bottom {
+  background-color: #e4f9f5;
+  padding: 50px 0 20px;
+}
+
+.pro {
+  text-decoration: underline;
+  /* visibility: hidden; This makes the element disappear but doesn't affect the position of anything else.*/
+}
+
+.intro {
+  width: 35%;
+  margin: auto;
+}
+
+.cloud_bottom {
+  position: absolute;
+  left: 250px;
+  bottom: 250px;
+}
+
+.cloud_top {
+  position: absolute;
+  top: 60px;
+  right: 250px;
+}
+
+.mountain {
+  height: 250px;
+}
+
+.pfp {
+  background-color: #FFFFFF;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.art {
+  width: 28%;
+  height: 180px;
+  float: left;
+  margin-right: 30px;
+}
+
+.piano {
+  width: 30%;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.sport {
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.programming {
+  border-radius: 50%;
+  width: 30%;
+  height: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact {
+  margin-top: 0;
+}
+
+.contact-message {
+  width: 35%
+  margin: auto;
+}
+
+.copyright {
+  color: #11698e;
+  font-size: 0.75rem;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #f5117f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #f25cb1;
+  text-decoration: none;
+}
